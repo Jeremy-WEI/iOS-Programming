@@ -10,14 +10,14 @@
 	<string>HelloWorld</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>65BEFA0DC1AC0A488F77FCC54067513C7FE5EBDC</key>
+		<key>E4C4BD7FAFBECDCB593B3220DDAA950F5C8FB428</key>
 		<string>https://github.com/Jeremy-WEI/iOS-Programming.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>HelloWorld/HelloWorld.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>65BEFA0DC1AC0A488F77FCC54067513C7FE5EBDC</key>
+		<key>E4C4BD7FAFBECDCB593B3220DDAA950F5C8FB428</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>65BEFA0DC1AC0A488F77FCC54067513C7FE5EBDC</string>
+	<string>E4C4BD7FAFBECDCB593B3220DDAA950F5C8FB428</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>65BEFA0DC1AC0A488F77FCC54067513C7FE5EBDC</string>
+			<string>E4C4BD7FAFBECDCB593B3220DDAA950F5C8FB428</string>
 			<key>IDESourceControlWCCName</key>
 			<string>iOS%20Programming</string>
 		</dict>

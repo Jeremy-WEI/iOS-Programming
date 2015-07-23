@@ -1,0 +1,3 @@
+Shift + Option + StoryBoard: Previewing StoryBoard
+Cmd + 0: Hide Navigator
+Ctrl + Drag View: Control Drag Auto Layout 
