@@ -5,20 +5,20 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>40BCEBBD-A2C3-411E-AD75-A0AD4A4281D2</string>
+	<string>72802408-CF72-4240-9B06-F68709E4A10E</string>
 	<key>IDESourceControlProjectName</key>
-	<string>SimpleTable</string>
+	<string>MyPlayground</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>E4C4BD7FAFBECDCB593B3220DDAA950F5C8FB428</key>
 		<string>https://github.com/Jeremy-WEI/iOS-Programming.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>SimpleTable/SimpleTable.xcodeproj</string>
+	<string>MyPlayground.playground</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>E4C4BD7FAFBECDCB593B3220DDAA950F5C8FB428</key>
-		<string>../../..</string>
+		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/Jeremy-WEI/iOS-Programming.git</string>
