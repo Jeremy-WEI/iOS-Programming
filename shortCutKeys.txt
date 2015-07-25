@@ -3,3 +3,8 @@ Cmd + 0: Hide Navigator
 Ctrl + Drag View: Control Drag Auto Layout 
 Ctrl + Drag: Link view with conrtroller
 Option + Class/Method: Pop up help window
+
+
+Ctrl + A: Goto Line front
+Ctrl + E: Goto Line End
+Ctrl + K: Delete A Line
