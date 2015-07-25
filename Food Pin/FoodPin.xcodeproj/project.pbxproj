@@ -13,6 +13,7 @@
 		2183D70B1B6338DF00442243 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2183D7091B6338DF00442243 /* LaunchScreen.xib */; };
 		2183D7171B6338DF00442243 /* Food_PinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2183D7161B6338DF00442243 /* Food_PinTests.swift */; };
 		2183D7211B633ACB00442243 /* RestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2183D7201B633ACB00442243 /* RestaurantTableViewController.swift */; };
+		21FAB4831B63CF6300920275 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FAB4821B63CF6300920275 /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		2183D7151B6338DF00442243 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2183D7161B6338DF00442243 /* Food_PinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food_PinTests.swift; sourceTree = "<group>"; };
 		2183D7201B633ACB00442243 /* RestaurantTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewController.swift; sourceTree = "<group>"; };
+		21FAB4821B63CF6300920275 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				2183D7001B6338DF00442243 /* AppDelegate.swift */,
+				21FAB4821B63CF6300920275 /* CustomTableViewCell.swift */,
 				2183D7201B633ACB00442243 /* RestaurantTableViewController.swift */,
 				2183D7041B6338DF00442243 /* Main.storyboard */,
 				2183D7071B6338DF00442243 /* Images.xcassets */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21FAB4831B63CF6300920275 /* CustomTableViewCell.swift in Sources */,
 				2183D7211B633ACB00442243 /* RestaurantTableViewController.swift in Sources */,
 				2183D7011B6338DF00442243 /* AppDelegate.swift in Sources */,
 			);
