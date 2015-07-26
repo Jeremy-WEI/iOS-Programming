@@ -13,7 +13,7 @@ class CustomTableViewCell: UITableViewCell {
     // MARK: Properties
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var locationLabel: UILabel!
-    @IBOutlet weak var typeLabel: UILabel!;
+    @IBOutlet weak var typeLabel: UILabel!
     @IBOutlet weak var thumbnailImageView: UIImageView!
     
     override func awakeFromNib() {

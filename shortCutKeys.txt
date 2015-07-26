@@ -3,6 +3,7 @@ Cmd + 0: Hide Navigator
 Ctrl + Drag View: Control Drag Auto Layout 
 Ctrl + Drag: Link view with conrtroller
 Option + Class/Method: Pop up help window
+Command + Class/Method: Open Class File
 
 
 Ctrl + A: Goto Line front
