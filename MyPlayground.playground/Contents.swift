@@ -1,18 +1,20 @@
-let digitNames = [
-    0: "Zero", 1: "One", 2: "Two",   3: "Three", 4: "Four",
-    5: "Five", 6: "Six", 7: "Seven", 8: "Eight", 9: "Nine"
-]
-let numbers = [16, 58, 510]
-
-
-let strings = numbers.map() {
-    (var number) -> String in
-    var output = ""
-    while number > 0 {
-        output = digitNames[number % 10]! + output
-        number /= 10
+class Restaurant {
+    var name: String!
+    var type: String!
+    var location: String!
+    var image: String!
+    var isVisited: Bool!
+    
+    init(name: String, type: String?, location: String?, image: String?, isVisited: Bool?) {
+        self.name = name
+        self.type = type!
+        self.location = location!
+        self.image = image!
+//        self.isVisited = isVisited!
     }
-    return output
 }
-// strings is inferred to be of type [String]
-// its value is ["OneSix", "FiveEight", "FiveOneZero"]
+
+
+var test = Restaurant(name: "ads", type: "asd", location: "asd", image: "asd", isVisited: true)
+test.isVisited
+
