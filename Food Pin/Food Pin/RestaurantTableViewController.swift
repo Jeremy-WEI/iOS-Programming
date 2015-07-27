@@ -36,6 +36,7 @@ class RestaurantTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .Plain, target: nil, action: nil)
     }
     
     override func didReceiveMemoryWarning() {
@@ -136,7 +137,7 @@ class RestaurantTableViewController: UITableViewController {
         if segue.identifier == "showRestaurantDetail" {
             if let indexPath = self.tableView.indexPathForSelectedRow() {
                 let destinationController = segue.destinationViewController as! DetailViewController
-                destinationController.restaurantImage = self.restaurants[indexPath.row].image
+                destinationController.restaurant = self.restaurants[indexPath.row]
             }
         }
     }
