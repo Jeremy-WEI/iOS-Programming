@@ -11,4 +11,5 @@
   - [x] Table Row Deletion + Custom Action Bar + MVC
   - [x] Navigation Controller + Segue
   - [x] Beautiful Detail View + Navigation Bar Customization
-  - [ ] Self Sizing Cells
+  - [x] Self Sizing Cells
+  - [ ] Basic Animation Using UIView
