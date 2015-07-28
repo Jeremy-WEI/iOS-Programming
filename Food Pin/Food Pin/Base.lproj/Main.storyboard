@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="r0B-aX-yne">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Food Pin-->
@@ -72,7 +73,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Xtp-67-jEQ">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Xtp-67-jEQ">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <imageView key="tableHeaderView" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="mpp-sE-TQu">
@@ -85,22 +86,24 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kso-Ws-e5c" id="bmJ-JC-fUr">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Feild" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wRP-da-Wg4">
-                                                    <rect key="frame" x="20" y="8" width="32" height="19.5"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Field" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wRP-da-Wg4">
+                                                    <rect key="frame" x="23" y="8" width="32" height="19.5"/>
                                                     <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="14"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Value" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d0H-fy-1aj">
-                                                    <rect key="frame" x="107" y="7" width="205" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Value" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d0H-fy-1aj">
+                                                    <rect key="frame" x="113" y="8" width="35.5" height="19.5"/>
                                                     <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="14"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="centerY" secondItem="d0H-fy-1aj" secondAttribute="centerY" id="F47-Mp-Muc"/>
-                                                <constraint firstAttribute="centerY" secondItem="wRP-da-Wg4" secondAttribute="centerY" id="hC1-Cv-X2a"/>
+                                                <constraint firstItem="d0H-fy-1aj" firstAttribute="leading" secondItem="wRP-da-Wg4" secondAttribute="leading" constant="90" id="AOT-fW-K80"/>
+                                                <constraint firstAttribute="centerY" secondItem="wRP-da-Wg4" secondAttribute="centerY" id="Jr6-DP-eEH"/>
+                                                <constraint firstItem="wRP-da-Wg4" firstAttribute="leading" secondItem="bmJ-JC-fUr" secondAttribute="leadingMargin" constant="15" id="eZq-fe-jj8"/>
+                                                <constraint firstAttribute="centerY" secondItem="d0H-fy-1aj" secondAttribute="centerY" id="nPg-JI-1YP"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
@@ -116,6 +119,12 @@
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="lg9-R2-QW8" firstAttribute="top" secondItem="Xtp-67-jEQ" secondAttribute="bottom" id="0LH-wO-rst"/>
+                            <constraint firstItem="Xtp-67-jEQ" firstAttribute="leading" secondItem="Ix5-bO-yO8" secondAttribute="leadingMargin" constant="-16" id="PdE-z2-UgS"/>
+                            <constraint firstItem="Xtp-67-jEQ" firstAttribute="top" secondItem="Ix5-bO-yO8" secondAttribute="topMargin" id="XnF-5e-mzo"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Xtp-67-jEQ" secondAttribute="trailing" constant="-16" id="sFy-lg-9E1"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="M38-Zp-8Vw"/>
                     <connections>
