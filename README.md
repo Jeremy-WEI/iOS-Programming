@@ -10,4 +10,5 @@
   - [x] AlertController
   - [x] Table Row Deletion + Custom Action Bar + MVC
   - [x] Navigation Controller + Segue
-  - [ ] Beautiful Detail View + Navigation Bar Customization
+  - [x] Beautiful Detail View + Navigation Bar Customization
+  - [ ] Self Sizing Cells
