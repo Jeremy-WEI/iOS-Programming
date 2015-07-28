@@ -1,8 +1,9 @@
 Shift + Option + StoryBoard: Previewing StoryBoard
 Cmd + 0: Hide Navigator
 Ctrl + Drag View: Control Drag Auto Layout 
-Ctrl + Drag: Link view with conrtroller
-Option + Class/Method: Pop up help window
+Ctrl + Drag: Link View With Controller
+Ctrl + Drag view to outer-view: Add Spacing Constraint for left margin (***) 
+Option + Class/Method: Pop Up Help Window
 Command + Class/Method: Open Class File
 
 
