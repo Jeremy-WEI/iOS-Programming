@@ -13,3 +13,4 @@
   - [x] Beautiful Detail View + Navigation Bar Customization
   - [x] Self Sizing Cells
   - [ ] Basic Animation Using UIView
+  - [ ] Working with Maps
