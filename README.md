@@ -14,3 +14,14 @@
   - [x] Self Sizing Cells
   - [ ] Basic Animation Using UIView
   - [ ] Working with Maps
+  - [ ] Static Table View and Photo Library
+  - [ ] Core Data
+  - [ ] Search Bar
+  - [ ] UI Page View Controller
+  - [ ] Exploring Tab Bar
+  - [ ] Working with Web View and Email
+  - [ ] Exploring CloudKit
+  - [ ] Localize Your App
+  - [ ] Deploying and Testing Your App
+  - [ ] Beta Testing with TestFlight
+  - [ ] Submit Your App to App Store  
