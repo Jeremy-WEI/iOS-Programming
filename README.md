@@ -12,7 +12,7 @@
   - [x] Navigation Controller + Segue
   - [x] Beautiful Detail View + Navigation Bar Customization
   - [x] Self Sizing Cells
-  - [ ] Basic Animation Using UIView
+  - [x] Basic Animation Using UIView
   - [ ] Working with Maps
   - [ ] Static Table View and Photo Library
   - [ ] Core Data

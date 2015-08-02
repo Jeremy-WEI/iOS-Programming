@@ -13,9 +13,11 @@
 		F4444CB619989F2900977F20 /* FoodPinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4444CB519989F2900977F20 /* FoodPinTests.swift */; };
 		F4444CC01998A2DE00977F20 /* RestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4444CBF1998A2DE00977F20 /* RestaurantTableViewController.swift */; };
 		F4444CC41998D97A00977F20 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4444CC31998D97A00977F20 /* CustomTableViewCell.swift */; };
+		F4567CBA19AAD2DD003E5658 /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4567CB919AAD2DD003E5658 /* ReviewViewController.swift */; };
 		F47FC96A19A1AB03002C4FFA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47FC96919A1AB03002C4FFA /* DetailViewController.swift */; };
 		F47FC97019A33FBD002C4FFA /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47FC96F19A33FBD002C4FFA /* DetailTableViewCell.swift */; };
 		F47FC97219A345FF002C4FFA /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47FC97119A345FF002C4FFA /* Restaurant.swift */; };
+		F48B8D6619AB376700FB4C83 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B8D6519AB376700FB4C83 /* ShareViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +41,11 @@
 		F4444CB519989F2900977F20 /* FoodPinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodPinTests.swift; sourceTree = "<group>"; };
 		F4444CBF1998A2DE00977F20 /* RestaurantTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewController.swift; sourceTree = "<group>"; };
 		F4444CC31998D97A00977F20 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		F4567CB919AAD2DD003E5658 /* ReviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
 		F47FC96919A1AB03002C4FFA /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		F47FC96F19A33FBD002C4FFA /* DetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
 		F47FC97119A345FF002C4FFA /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		F48B8D6519AB376700FB4C83 /* ShareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,11 +88,13 @@
 			isa = PBXGroup;
 			children = (
 				F4444CA219989F2800977F20 /* AppDelegate.swift */,
+				F4444CBF1998A2DE00977F20 /* RestaurantTableViewController.swift */,
 				F4444CC31998D97A00977F20 /* CustomTableViewCell.swift */,
 				F47FC96919A1AB03002C4FFA /* DetailViewController.swift */,
 				F47FC96F19A33FBD002C4FFA /* DetailTableViewCell.swift */,
 				F47FC97119A345FF002C4FFA /* Restaurant.swift */,
-				F4444CBF1998A2DE00977F20 /* RestaurantTableViewController.swift */,
+				F4567CB919AAD2DD003E5658 /* ReviewViewController.swift */,
+				F48B8D6519AB376700FB4C83 /* ShareViewController.swift */,
 				F4444CA619989F2800977F20 /* Main.storyboard */,
 				F4444CA919989F2900977F20 /* Images.xcassets */,
 				F4444CA019989F2800977F20 /* Supporting Files */,
@@ -222,9 +228,11 @@
 			files = (
 				F4444CC41998D97A00977F20 /* CustomTableViewCell.swift in Sources */,
 				F4444CC01998A2DE00977F20 /* RestaurantTableViewController.swift in Sources */,
+				F4567CBA19AAD2DD003E5658 /* ReviewViewController.swift in Sources */,
 				F47FC97219A345FF002C4FFA /* Restaurant.swift in Sources */,
 				F4444CA319989F2800977F20 /* AppDelegate.swift in Sources */,
 				F47FC97019A33FBD002C4FFA /* DetailTableViewCell.swift in Sources */,
+				F48B8D6619AB376700FB4C83 /* ShareViewController.swift in Sources */,
 				F47FC96A19A1AB03002C4FFA /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -132,7 +132,6 @@ class RestaurantTableViewController: UITableViewController {
                 let destinationController = segue.destinationViewController as! DetailViewController
                 destinationController.restaurant = restaurants[indexPath.row]
             }
-            
         }
     }
 
