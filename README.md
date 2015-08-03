@@ -13,7 +13,7 @@
   - [x] Beautiful Detail View + Navigation Bar Customization
   - [x] Self Sizing Cells
   - [x] Basic Animation Using UIView
-  - [ ] Working with Maps
+  - [x] Working with Maps
   - [ ] Static Table View and Photo Library
   - [ ] Core Data
   - [ ] Search Bar
