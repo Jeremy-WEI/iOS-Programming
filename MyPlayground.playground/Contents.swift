@@ -1,20 +1,37 @@
-class Restaurant {
-    var name: String!
-    var type: String!
-    var location: String!
-    var image: String!
-    var isVisited: Bool!
-    
-    init(name: String, type: String?, location: String?, image: String?, isVisited: Bool?) {
+class MediaItem {
+    var name: String
+    init(name: String) {
         self.name = name
-        self.type = type!
-        self.location = location!
-        self.image = image!
-//        self.isVisited = isVisited!
+    }
+}
+class Movie: MediaItem {
+    var director: String
+    init(name: String, director: String) {
+        self.director = director
+        super.init(name: name)
     }
 }
 
+class Song: MediaItem {
+    var artist: String
+    init(name: String, artist: String) {
+        self.artist = artist
+        super.init(name: name)
+    }
+}
 
-var test = Restaurant(name: "ads", type: "asd", location: "asd", image: "asd", isVisited: true)
-test.isVisited
+let library = [
+    Movie(name: "Casablanca", director: "Michael Curtiz"),
+    Song(name: "Blue Suede Shoes", artist: "Elvis Presley"),
+    Movie(name: "Citizen Kane", director: "Orson Welles"),
+    Song(name: "The One And Only", artist: "Chesney Hawkes"),
+    Song(name: "Never Gonna Give You Up", artist: "Rick Astley")
+]
 
+for item in library {
+    if let movie = item as? Movie {
+        println("Movie: '\(movie.name)', dir. \(movie.director)")
+    } else if let song = item as? Song {
+        println("Song: '\(song.name)', by \(song.artist)")
+    }
+}
